@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html class='no-js'>
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta charset="utf-8">
+    </head>
+    <script scr="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="public/src/css/index.css">
+    <!-- <link rel="stylesheet" href="https://www.cambriausa.com/public/stylesheets/application.css?cacheBust=98426576223"> -->
+    <body class="container">
+        <div class="header" id="header">
+            <div class="wrapper--main wrapper--header">
+                <a href="/" class="logo-container" tabindex="1">
+                    <img src="public/img/logo/TheMoneyTeam.jpg" height="116" width="135" title="Home" class="logo--desktop hide-below-desk"
+                </a>
+                <div class="loc-dropdown js-loc-dropdown">
+                    <a href="https://www.facebook.com/mintu.hyn" class="anchor--plain">
+                        <div class="loc-dropdown__img">
+                            <img src="public/img/Family.jpg" height="135" width="135">
+                        </div>
+                        <div class="loc-dropdown__cta">
+                            <div class="loc-dropdown__cta__upper">
+                                <span>Money Team</span>
+                            </div>
+                            <div class="loc-dropdown__cta__lower">Family</div>
+                        </div>
+                    </a>
+                    <div>
+                        <button class="loc-dropdown__handle js-loc-dropdown-handle">
+                            <svg height="16" width="20" viewBox="0 0 20 16">
+                                <polygon points="2 12, 10 4, 18 12" fill="rgb(140,130,90)"></polygon>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+    <script>
+        $(document).ready(function () {
+                $("button").click(function () {
+                    $("p").hide();
+                });
+            });
+    </script>
+</html>
