@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html class='no-js'>
-    <head>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-        <meta charset="utf-8">
-    </head>
-    <script scr="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="public/src/css/index.css">
-    <!-- <link rel="stylesheet" href="https://www.cambriausa.com/public/stylesheets/application.css?cacheBust=98426576223"> -->
-    <body class="container">
-        <div class="header" id="header">
-            <div class="wrapper--main wrapper--header">
-                <a href="/" class="logo-container" tabindex="1">
-                    <img src="public/img/logo/TheMoneyTeam.jpg" height="116" width="135" title="Home" class="logo--desktop hide-below-desk"
-                </a>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta charset="utf-8">
+</head>
+<script scr="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<link rel="stylesheet" href="public/src/css/index.css">
+<link rel="stylesheet" href="public/src/css/bootstrap.min.css">
+<!-- <link rel="stylesheet" href="https://www.cambriausa.com/public/stylesheets/application.css?cacheBust=98426576223"> -->
+<link rel="stylesheet" href="https://cloud.webtype.com/css/0367b264-fa63-4fd6-9909-79e23078bb03.css">
+
+<body class="container">
+    <div class="header" id="header">
+        <div class="wrapper--main wrapper--header">
+            <a href="/" class="logo-container" tabindex="1">
+                <img src="public/img/logo/TheMoneyTeam.jpg" height="116" width="135" title="Home" class="logo--desktop hide-below-desk" </a>
                 <div class="loc-dropdown js-loc-dropdown">
                     <a href="https://www.facebook.com/mintu.hyn" class="anchor--plain">
                         <div class="loc-dropdown__img">
@@ -33,15 +37,367 @@
                         </button>
                     </div>
                 </div>
-            </div>
-        </div>
+                <div class="nav-container js-nav-container hidden-print">
+                    <ul class="main-nav search-list">
+                        <li class>
+                            <a href="#" onclick="return false" class="main-nav__item js-main-nav-item" data-flyout="Designs" tabindex="1">Designs</a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return false" class="main-nav__item js-main-nav-item" data-flyout="Ideas" tabindex="6">Ideas</a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return false" class="main-nav__item js-main-nav-item" data-flyout="Why Cambria" tabindex="13">Why Cambria</a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return false" class="main-nav__item js-main-nav-item" data-flyout="Get Cambria" tabindex="19">Get Cambria</a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return false" class="main-nav__item js-main-nav-item is-active--always is-active" data-flyout="My Cambria"
+                                tabindex="26">My Cambria</a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return false" class="main-nav__item js-main-nav-item" data-flyout="About Us" tabindex="32">About Us</a>
+                        </li>
+                    </ul>
+                    <ul class="utility-nav">
 
-    </body>
-    <script>
-        $(document).ready(function () {
-                $("button").click(function () {
-                    $("p").hide();
-                });
-            });
-    </script>
+
+                        <li>
+                            <img class="icon-foam float--left hide-below-desk js-inline-svg" src="public/img/foam.svg" alt="Family Owned. American Made.">
+                            <noscript>
+                                <img class="" src="/public/images/foam.gif" alt="Family Owned. American Made." />
+                            </noscript>
+                        </li>
+
+                        <li class="utility-nav__list-item--priority ">
+                            <a href="https://www.cambriausa.com/en/Style/" class="utility-nav__item--priority js-utility-nav-item" data-flyout="Cambria Style"
+                                tabindex="39">Cambria Style</a>
+                        </li>
+                        <li class="utility-nav__list-item--priority ">
+                            <a href="https://residential.cambriausa.com/en/" class="utility-nav__item--priority js-utility-nav-item" data-flyout="Trade"
+                                tabindex="46">Trade</a>
+                            <ul class="dropdown js-flyout" data-flyout="Trade">
+                                <li>
+                                    <a href="https://residential.cambriausa.com/en/Retailer-home/?audience=retailer" class="js-flyout-link" tabindex="47">Retailer</a>
+                                </li>
+                                <li>
+                                    <a href="https://residential.cambriausa.com/en/designer-architect-home/?audience=designer" class="js-flyout-link" tabindex="48">Designer</a>
+                                </li>
+                                <li>
+                                    <a href="https://residential.cambriausa.com/en/builder-remodeler-home/?audience=builder" class="js-flyout-link" tabindex="49">Builder/Remodeler</a>
+                                </li>
+                                <li>
+                                    <a href="https://residential.cambriausa.com/en/fabricator-installer-home/?audience=fabricator" class="js-flyout-link" tabindex="50">Fabricator/Installer</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="utility-nav__list-item--priority ">
+                            <a href="http://commercial.cambriausa.com/en/?audience=commercial" class="utility-nav__item--priority js-utility-nav-item"
+                                data-flyout="Commercial" tabindex="51">Commercial</a>
+                        </li>
+
+                    </ul>
+                </div>
+        </div>
+        <div class="flyout-container js-flyout-container hidden-print is-active">
+        
+            <div class="flyout__inner  js-flyout" data-flyout="Designs">
+                <div class="flyout__links-wrap">
+                    <ul class="flyout__links">
+                        <li class="">
+                            <a href="https://www.cambriausa.com/#%22%20onclick=%22return%20false;" class="flyout__link flyout__link--header  js-flyout-link">
+                                <span>Designs</span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="https://www.cambriausa.com/en/Designs/design-palette-colors/" class="flyout__link  js-flyout-link" tabindex="2">
+                                <span>Design Palette</span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="https://www.cambriausa.com/en/Designs/photos-and-videos/" class="flyout__link  js-flyout-link" tabindex="3">
+                                <span>Image Library</span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="https://www.cambriausa.com/en/Designs/Surface-Finishes/" class="flyout__link  js-flyout-link" tabindex="4">
+                                <span>Surface Finishes</span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="https://www.cambriausa.com/en/Designs/Edge-Profiles/" class="flyout__link  js-flyout-link" tabindex="5">
+                                <span>Edge Profiles</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="flyout__inner  js-flyout" data-flyout="Ideas">
+                <div class="flyout__links-wrap">
+                    <ul class="flyout__links">
+                        <li class="">
+                            <a href="https://www.cambriausa.com/#%22%20onclick=%22return%20false;" class="flyout__link flyout__link--header  js-flyout-link">
+                                <span>Ideas</span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="https://www.cambriausa.com/en/Designs/inspiration-gallery/" class="flyout__link  js-flyout-link" tabindex="7">
+                                <span>Inspiration Gallery</span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="https://dragonvision.cambriausa.com/dragonvision/#!/roomStyle" class="flyout__link  js-flyout-link" tabindex="8">
+                                <span>DragonVision™</span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="https://www.cambriausa.com/en/Cambria-AR/" class="flyout__link  js-flyout-link" tabindex="9">
+                                <span>Cambria AR™</span>
+                            </a>
+                        </li>
+                        <li class="hide-below-lap">
+                            <a href="https://www.cambriausa.com/en/Designs/Paint-Match-Tool/" class="flyout__link  js-flyout-link" tabindex="10">
+                                <span>Paint Match Tool</span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="https://www.cambriausa.com/en/dream-plan-do/" class="flyout__link  js-flyout-link" tabindex="11">
+                                <span>Design Tools</span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="https://refineanddefine.cambriausa.com/" class="flyout__link  js-flyout-link" tabindex="12">
+                                <span>Refine + Define</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="flyout__inner  js-flyout" data-flyout="Why Cambria">
+                <div class="flyout__links-wrap">
+                    <ul class="flyout__links">
+                        <li class="">
+                            <a href="https://www.cambriausa.com/#%22%20onclick=%22return%20false;" class="flyout__link flyout__link--header  js-flyout-link">
+                                <span>Why Cambria</span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="https://www.cambriausa.com/en/Why-Cambria/Superior-Performance/" class="flyout__link  js-flyout-link" tabindex="14">
+                                <span>Superior Performance</span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="https://www.cambriausa.com/en/Why-Cambria/Unmatched-Beauty/" class="flyout__link  js-flyout-link" tabindex="15">
+                                <span>Unmatched Beauty</span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="https://www.cambriausa.com/en/Why-Cambria/Customer-Experience/" class="flyout__link  js-flyout-link" tabindex="16">
+                                <span>World Class Service</span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="https://www.cambriausa.com/en/Why-Cambria/Craftsmanship/" class="flyout__link  js-flyout-link" tabindex="17">
+                                <span>American Craftsmanship</span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="https://www.cambriausa.com/en/Why-Cambria/Environmentally-Friendly/" class="flyout__link  js-flyout-link" tabindex="18">
+                                <span>Environmentally Friendly</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="flyout__inner  js-flyout" data-flyout="Get Cambria">
+                <div class="flyout__links-wrap">
+                    <ul class="flyout__links">
+                        <li class="">
+                            <a href="https://www.cambriausa.com/#%22%20onclick=%22return%20false;" class="flyout__link flyout__link--header  js-flyout-link">
+                                <span>Get Cambria</span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="http://store.cambriausa.com/samples/" class="flyout__link  js-flyout-link" tabindex="20">
+                                <span>Order Samples</span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="https://www.cambriausa.com/en/dealer-locator/" class="flyout__link  js-flyout-link" tabindex="21">
+                                <span>Dealer Locator</span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="https://www.cambriausa.com/en/galleries/" class="flyout__link  js-flyout-link" tabindex="22">
+                                <span>Galleries</span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="https://www.cambriausa.com/en/Purchasing/financing/" class="flyout__link  js-flyout-link" tabindex="23">
+                                <span>Finance by Cambria</span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="https://www.cambriausa.com/en/dealer-locator/Installation/" class="flyout__link  js-flyout-link" tabindex="24">
+                                <span>Prep for Install</span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="https://store.cambriausa.com/" class="flyout__link  js-flyout-link" tabindex="25">
+                                <span>Featured in Oprah's O List</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="flyout__inner  js-flyout" data-flyout="My Cambria">
+                <div class="flyout__links-wrap">
+                    <ul class="flyout__links">
+                        <li class="">
+                            <a href="https://www.cambriausa.com/#%22%20onclick=%22return%20false;" class="flyout__link flyout__link--header  js-flyout-link">
+                                <span>My Cambria</span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="https://www.cambriausa.com/en/Customer-Care/request-information/" class="flyout__link  js-flyout-link" tabindex="27">
+                                <span>Customer Care</span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="https://www.cambriausa.com/en/Customer-Care/Warranty/" class="flyout__link  js-flyout-link" tabindex="28">
+                                <span>Warranty Registration</span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="https://www.cambriausa.com/en/Customer-Care/care-maintenance/" class="flyout__link  js-flyout-link" tabindex="29">
+                                <span>Care &amp; Maintenance</span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="https://www.cambriausa.com/en/Designs/myCambria/gallery/" class="flyout__link  js-flyout-link" tabindex="30">
+                                <span>Share My Photos</span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="https://www.cambriausa.com/en/Style/" class="flyout__link  js-flyout-link" tabindex="31">
+                                <span>Cambria Style</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="flyout__inner  js-flyout" data-flyout="About Us">
+                <div class="flyout__links-wrap">
+                    <ul class="flyout__links">
+                        <li class="">
+                            <a href="https://www.cambriausa.com/#%22%20onclick=%22return%20false;" class="flyout__link flyout__link--header  js-flyout-link">
+                                <span>About Us</span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="https://www.cambriausa.com/en/foundation/" class="flyout__link  js-flyout-link" tabindex="33">
+                                <span>Camp Cambria Foundation</span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="https://www.cambriausa.com/en/About-Us/" class="flyout__link  js-flyout-link" tabindex="34">
+                                <span>Leadership</span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="https://www.cambriausa.com/en/About-Us/legacy/" class="flyout__link  js-flyout-link" tabindex="35">
+                                <span>Legacy</span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="https://www.cambriausa.com/en/About-Us/Philanthropy/" class="flyout__link  js-flyout-link" tabindex="36">
+                                <span>Philanthropy</span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="https://www.cambriausa.com/en/About-Us/press-room/" class="flyout__link  js-flyout-link" tabindex="37">
+                                <span>Press Room</span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="https://www.cambriausa.com/en/About-Us/careers/" class="flyout__link  js-flyout-link" tabindex="38">
+                                <span>Careers</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+
+</body>
+<script>
+    $(document).ready(function () {
+        $(".loc-dropdown__handle.js-loc-dropdown-handle").click(function () {
+            if ($(".open").length) {
+                $(".loc-dropdown.js-loc-dropdown").last().removeClass("open");
+            } else {
+                $(".loc-dropdown.js-loc-dropdown").last().addClass("open")
+            }
+        });
+
+        // $(".utility-nav__item--priority.js-utility-nav-item").hover(){
+        //     $('[tabindex=39]').last().addClass("is-active")
+        // }
+
+        $('[tabindex=39]').hover(
+            function () {
+                $('[tabindex=39]').last().addClass("is-active")
+            },
+
+            function () {
+                $('[tabindex=39]').last().removeClass("is-active")
+            }
+        );
+
+        $('[tabindex=46]').mouseover(
+            function () {
+                $('[tabindex=46]').last().addClass("is-active")
+                $('.dropdown.js-flyout').mouseover(
+                    function () {
+                        $('[tabindex=46]').last().addClass("is-active")
+                    },
+                )
+                $('.dropdown.js-flyout').mouseout(
+                    function () {
+                        $('[tabindex=46]').last().removeClass("is-active")
+                    },
+                )
+            },
+
+            // function () {
+            //     $('[tabindex=46]').last().removeClass("is-active")
+            // }
+        );
+
+        $('[tabindex=46]').mouseout(
+            function () {
+                $('[tabindex=46]').last().removeClass("is-active")
+
+            }
+            // function () {
+            //     $('[tabindex=46]').last().removeClass("is-active")
+            // }
+        );
+
+
+
+        $('[tabindex=51]').hover(
+            function () {
+                $('[tabindex=51]').last().addClass("is-active")
+            },
+
+            function () {
+                $('[tabindex=51]').last().removeClass("is-active")
+            }
+        );
+    });
+</script>
+
 </html>
