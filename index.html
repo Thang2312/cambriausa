@@ -100,8 +100,8 @@
                 </div>
         </div>
         <div class="flyout-container js-flyout-container hidden-print is-active">
-        
-            <div class="flyout__inner  js-flyout" data-flyout="Designs">
+
+            <div class="flyout__inner  js-flyout" style="display:none;" data-flyout="Designs">
                 <div class="flyout__links-wrap">
                     <ul class="flyout__links">
                         <li class="">
@@ -132,7 +132,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="flyout__inner  js-flyout" data-flyout="Ideas">
+            <div class="flyout__inner  js-flyout" style="display:none;" data-flyout="Ideas">
                 <div class="flyout__links-wrap">
                     <ul class="flyout__links">
                         <li class="">
@@ -173,7 +173,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="flyout__inner  js-flyout" data-flyout="Why Cambria">
+            <div class="flyout__inner  js-flyout" style="display:none;" data-flyout="Why Cambria">
                 <div class="flyout__links-wrap">
                     <ul class="flyout__links">
                         <li class="">
@@ -209,7 +209,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="flyout__inner  js-flyout" data-flyout="Get Cambria">
+            <div class="flyout__inner  js-flyout" style="display:none;" data-flyout="Get Cambria">
                 <div class="flyout__links-wrap">
                     <ul class="flyout__links">
                         <li class="">
@@ -250,7 +250,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="flyout__inner  js-flyout" data-flyout="My Cambria">
+            <div class="flyout__inner  js-flyout is-active" data-flyout="My Cambria">
                 <div class="flyout__links-wrap">
                     <ul class="flyout__links">
                         <li class="">
@@ -286,7 +286,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="flyout__inner  js-flyout" data-flyout="About Us">
+            <div class="flyout__inner  js-flyout" style="display:none;" data-flyout="About Us">
                 <div class="flyout__links-wrap">
                     <ul class="flyout__links">
                         <li class="">
@@ -327,12 +327,14 @@
                     </ul>
                 </div>
             </div>
-        
+
         </div>
     </div>
 
 </body>
 <script>
+    var flyout;
+
     $(document).ready(function () {
         $(".loc-dropdown__handle.js-loc-dropdown-handle").click(function () {
             if ($(".open").length) {
@@ -341,10 +343,6 @@
                 $(".loc-dropdown.js-loc-dropdown").last().addClass("open")
             }
         });
-
-        // $(".utility-nav__item--priority.js-utility-nav-item").hover(){
-        //     $('[tabindex=39]').last().addClass("is-active")
-        // }
 
         $('[tabindex=39]').hover(
             function () {
@@ -370,10 +368,6 @@
                     },
                 )
             },
-
-            // function () {
-            //     $('[tabindex=46]').last().removeClass("is-active")
-            // }
         );
 
         $('[tabindex=46]').mouseout(
@@ -381,13 +375,7 @@
                 $('[tabindex=46]').last().removeClass("is-active")
 
             }
-            // function () {
-            //     $('[tabindex=46]').last().removeClass("is-active")
-            // }
         );
-
-
-
         $('[tabindex=51]').hover(
             function () {
                 $('[tabindex=51]').last().addClass("is-active")
@@ -397,6 +385,51 @@
                 $('[tabindex=51]').last().removeClass("is-active")
             }
         );
+
+        $('[tabindex=28]').hover(
+            function () {
+                $('[tabindex=28]').last().addClass("is-active")
+            },
+            function () {
+                $('[tabindex=28]').last().removeClass("is-active")
+            }
+        );
+
+        $('[tabindex=29]').hover(
+            function () {
+                $('[tabindex=29]').last().addClass("is-active")
+            },
+            function () {
+                $('[tabindex=29]').last().removeClass("is-active")
+            }
+        );
+
+        $('[tabindex=30]').hover(
+            function () {
+                $('[tabindex=30]').last().addClass("is-active")
+            },
+            function () {
+                $('[tabindex=30]').last().removeClass("is-active")
+            }
+        );
+
+        $('[tabindex=31]').hover(
+            function () {
+                $('[tabindex=31]').last().addClass("is-active")
+            },
+            function () {
+                $('[tabindex=31]').last().removeClass("is-active")
+            }
+        );
+
+        $('.main-nav__item.js-main-nav-item').hover(
+            function(){
+                console.log($(".main-nav__item.js-main-nav-item").data("flyout"))
+                if ($(".flyout__inner.js-flyout").data("flyout") ===  $(".main-nav__item.js-main-nav-item").data("flyout")){
+                    // console.log($(".flyout__inner.js-flyout").data("flyout"))
+                }
+            }
+        )
     });
 </script>
 

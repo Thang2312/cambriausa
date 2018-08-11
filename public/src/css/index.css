@@ -904,3 +904,137 @@ img[width],img[height] {
     max-width: 1242px
 }
 
+.flyout__links-wrap {
+    height: 100%;
+}
+
+@media only screen and (max-width: 1049px) {
+    .flyout__links {
+        line-height:3
+    }
+
+    .flyout__links>li {
+        width: 100%;
+        border-bottom: 1px solid #666
+    }
+
+    .flyout__links>li:last-child {
+        border-bottom: 0
+    }
+}
+
+@media only screen and (min-width: 1050px) {
+    .flyout__links {
+        width:100%;
+        max-width: 1040px;
+        padding-left: 200px;
+        height: 100%;
+        *zoom:1}
+
+    .flyout__links:before,.flyout__links:after {
+        display: table;
+        content: ""
+    }
+
+    .flyout__links:after {
+        clear: both
+    }
+
+    .flyout__links>li {
+        line-height: 1.2;
+        height: 100%;
+        float: left;
+        max-width: 80px
+    }
+
+    .flyout__links>li+li {
+        margin-right: 0.7em
+    }
+
+    .flyout__links>li:last-child {
+        margin-right: 0
+    }
+}
+
+@media only screen and (min-width: 1050px) {
+    .flyout__links>li {
+        max-width:none
+    }
+}
+
+.flyout__link {
+    color: inherit;
+    text-decoration: none;
+    letter-spacing: 0;
+    text-transform: none;
+    font-style: normal;
+}
+
+@media only screen and (max-width: 1049px) {
+    .flyout__link {
+        display:block;
+        width: 100%;
+        color: #ededed;
+        font-family: "Apres RE",Arial,Times,"Times New Roman",serif;
+        font-size: 13px;
+        font-size: 0.92857rem
+    }
+}
+
+@media only screen and (min-width: 1050px) {
+    .flyout__link {
+        height:100%;
+        display: table;
+        padding: 0 0.5em 0;
+        line-height: 1.1;
+        font-family: "BodoniBook","Bodoni MT","Times New Roman","Garamond",serif;
+        font-size: 0.9em;
+        border-bottom: 3px solid transparent;
+        -webkit-transition: border-bottom-color 0.2s ease;
+        -o-transition: border-bottom-color 0.2s ease;
+        transition: border-bottom-color 0.2s ease;
+    }
+
+    .flyout__link span {
+        display: table-cell;
+        vertical-align: middle
+    }
+}
+
+@media only screen and (min-width: 1050px) {
+    .flyout__link {
+        font-size:16px;
+    }
+}
+
+.flyout__link:hover,.flyout__link:focus,.flyout__link.is-active,.flyout__link.is-active--always {
+    outline: 0;
+    text-decoration: none;
+    border-bottom-color: #c59617
+}
+
+@media only screen and (max-width: 1049px) {
+    .flyout__link:hover,.flyout__link:focus,.flyout__link.is-active,.flyout__link.is-active--always {
+        color:#c59617
+    }
+}
+
+@media only screen and (max-width: 1049px) {
+    .flyout__link--header {
+        text-transform:uppercase;
+        font-family: "BodoniBook","Bodoni MT","Times New Roman","Garamond",serif;
+        line-height: 2.3;
+        font-size: 17px;
+        font-size: 1.21429rem
+    }
+}
+
+@media only screen and (min-width: 1050px) {
+    .flyout__link--header {
+        display:none
+    }
+}
+
+ol,ul {
+    list-style: none
+}
