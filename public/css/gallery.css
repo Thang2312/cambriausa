@@ -1,4 +1,12 @@
-.search-list a:focus, a:hover {
+.flyout__links {
+  display: none;
+}
+
+.main-nav__item:hover {
   color: white;
-  text-decoration: underline;
+}
+
+.utility-nav__item--priority:hover {
+  color: #c59617;
+  border-bottom-color: #c59617;
 }
