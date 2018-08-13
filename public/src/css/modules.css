@@ -1,0 +1,63 @@
+.module {
+    position: relative;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 767px) {
+    .module {
+        min-height:0
+    }
+}
+
+.generic-mod--tall .module__inner {
+    padding-top: 50px;
+    padding-top: 3.57143rem;
+    padding-bottom: 75px;
+    padding-bottom: 5.35714rem
+}
+
+@media only screen and (min-width: 768px) {
+    .generic-mod--tall .module__inner {
+        padding-top:75px;
+        padding-top: 5.35714rem;
+        padding-bottom: 100px;
+        padding-bottom: 7.14286rem
+    }
+}
+
+.generic-mod--tall--bottomless .module__inner {
+    padding-top: 25px;
+    padding-top: 1.78571rem;
+    padding-bottom: 0
+}
+
+@media only screen and (min-width: 768px) {
+    .generic-mod--tall--bottomless .module__inner {
+        padding-top:37.5px;
+        padding-top: 2.67857rem;
+        padding-bottom: 100px;
+        padding-bottom: 7.14286rem
+    }
+}
+
+.dark-on-light {
+    color: #000;
+    background-color: #fff
+}
+
+.dark-on-light .overlay {
+    background: #fff;
+    background: rgba(255,255,255,0.97)
+}
+
+.dark-on-light>.two-up-module__bg-fader {
+    background-color: white
+}
+
+.wrapper--wide {
+    max-width: 1550px
+}
+
+.experience-modal .optional-promo-mobile .module__inner .wrapper--wide {
+    margin-top: 152px
+}
