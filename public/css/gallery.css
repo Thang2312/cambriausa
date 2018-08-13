@@ -2,6 +2,12 @@
   display: none;
 }
 
+.flyout__links.is-active {
+  display: block;
+}
+.flyout-container.js-flyout-container {
+  display: none;
+}
 .main-nav__item:hover {
   color: white;
 }
