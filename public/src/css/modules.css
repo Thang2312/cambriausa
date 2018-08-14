@@ -40,6 +40,22 @@
     }
 }
 
+.generic-mod--taller .module__inner {
+    padding-top: 50px;
+    padding-top: 3.57143rem;
+    padding-bottom: 75px;
+    padding-bottom: 5.35714rem
+}
+
+@media only screen and (min-width: 768px) {
+    .generic-mod--taller .module__inner {
+        padding-top:75px;
+        padding-top: 5.35714rem;
+        padding-bottom: 125px;
+        padding-bottom: 8.92857rem
+    }
+}
+
 .dark-on-light {
     color: #000;
     background-color: #fff
@@ -60,4 +76,302 @@
 
 .experience-modal .optional-promo-mobile .module__inner .wrapper--wide {
     margin-top: 152px
+}
+
+.carousel--copy-overlay {
+    margin-bottom: -4px;
+    overflow: hidden;
+    position: relative
+}
+
+.carousel--copy-overlay .desktop-image,.carousel--copy-overlay .mobile-image {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+.carousel--copy-overlay .desktop-image {
+    display: none
+}
+
+@media only screen and (min-width: 768px) {
+    .carousel--copy-overlay .mobile-image {
+        display:none
+    }
+
+    .carousel--copy-overlay .desktop-image {
+        display: block
+    }
+}
+
+.carousel--copy-overlay .overlay {
+    background: black;
+    background: rgba(0,0,0,0.88);
+    color: white
+}
+
+.carousel--copy-overlay .overlay--light {
+    background: white;
+    background: rgba(255,255,255,0.88);
+    color: black
+}
+
+.carousel--copy-overlay .overlay--dark {
+    background: black;
+    background: rgba(0,0,0,0.88);
+    color: white
+}
+
+.carousel--copy-overlay .owl-wrapper-outer {
+    display: table;
+    height: 100%
+}
+
+.carousel--copy-overlay .owl-item {
+    display: table-cell;
+    height: 100%
+}
+
+.carousel--copy-overlay .owl-item .item,.carousel--copy-overlay .owl-item .module__inner {
+    height: 100%
+}
+
+.carousel {
+    position: relative
+}
+
+.module__inner {
+    max-width: 1550px
+}
+
+@media only screen and (min-width: 768px) {
+    .module__inner {
+        background-position:center top;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat
+    }
+}
+
+.modules .module:first-child .module__inner {
+    padding-top: 60px
+}
+
+@media only screen and (min-width: 1050px) {
+    .modules .module:first-child .module__inner {
+        padding-top:200px
+    }
+}
+
+.modules .module-carousel:first-child .module__inner {
+    padding-top: 0
+}
+
+@media only screen and (min-width: 1050px) {
+    .modules .module-carousel:first-child .module__inner {
+        padding-top:104px
+    }
+}
+
+@media only screen and (min-width: 1050px) {
+    .modules .generic-mod--lg:first-child .module__inner {
+        padding-top:300px
+    }
+}
+
+.lt-ie9 .module__inner {
+    -ms-behavior: url(/public/stylesheets/backgroundsize.min.htc)
+}
+
+.module__inner.module__mobile-bg {
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+@media only screen and (min-width: 768px) {
+    .module__inner.module__mobile-bg {
+        background-image:none !important;
+        padding-top: 0 !important;
+        padding-bottom: 0 !important
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .module__inner.module__desktop-bg {
+        background-image:none !important
+    }
+
+    .module__inner.module__desktop-bg.module__desktop-bg--has-mobile-bg {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important
+    }
+}
+
+.main-content-mod .module__inner {
+    padding-top: 25px;
+    padding-top: 1.78571rem;
+    padding-bottom: 25px;
+    padding-bottom: 1.78571rem
+}
+
+@media only screen and (max-width: 767px) {
+    .main-content-mod .module__inner.module__desktop-bg-no-mobile {
+        padding-top:25px !important;
+        padding-top: 1.78571rem !important;
+        padding-bottom: 25px !important;
+        padding-bottom: 1.78571rem !important
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .main-content-mod .module__inner {
+        padding-top:100px;
+        padding-top: 7.14286rem;
+        padding-bottom: 320px;
+        padding-bottom: 22.85714rem
+    }
+}
+
+.generic-mod .module__inner {
+    padding-top: 25px;
+    padding-top: 1.78571rem;
+    padding-bottom: 25px;
+    padding-bottom: 1.78571rem
+}
+
+@media only screen and (min-width: 768px) {
+    .generic-mod .module__inner {
+        padding-top:50px;
+        padding-top: 3.57143rem;
+        padding-bottom: 50px;
+        padding-bottom: 3.57143rem
+    }
+}
+
+.generic-mod--sm .module__inner {
+    padding-top: 25px;
+    padding-top: 1.78571rem;
+    padding-bottom: 25px;
+    padding-bottom: 1.78571rem
+}
+
+.generic-mod--med .module__inner {
+    padding-top: 50px;
+    padding-top: 3.57143rem;
+    padding-bottom: 50px;
+    padding-bottom: 3.57143rem
+}
+
+@media only screen and (min-width: 768px) {
+    .generic-mod--med .module__inner {
+        padding-top:75px;
+        padding-top: 5.35714rem;
+        padding-bottom: 75px;
+        padding-bottom: 5.35714rem
+    }
+}
+
+.generic-mod--lg .module__inner {
+    padding-top: 75px;
+    padding-top: 5.35714rem;
+    padding-bottom: 75px;
+    padding-bottom: 5.35714rem
+}
+
+@media only screen and (min-width: 768px) {
+    .generic-mod--lg .module__inner {
+        padding-top:250px;
+        padding-top: 17.85714rem;
+        padding-bottom: 200px;
+        padding-bottom: 14.28571rem
+    }
+}
+
+.generic-mod--tall .module__inner {
+    padding-top: 50px;
+    padding-top: 3.57143rem;
+    padding-bottom: 75px;
+    padding-bottom: 5.35714rem
+}
+
+@media only screen and (min-width: 768px) {
+    .generic-mod--tall .module__inner {
+        padding-top:75px;
+        padding-top: 5.35714rem;
+        padding-bottom: 100px;
+        padding-bottom: 7.14286rem
+    }
+}
+
+.generic-mod--tall--bottomless .module__inner {
+    padding-top: 25px;
+    padding-top: 1.78571rem;
+    padding-bottom: 0
+}
+
+@media only screen and (min-width: 768px) {
+    .generic-mod--tall--bottomless .module__inner {
+        padding-top:37.5px;
+        padding-top: 2.67857rem;
+        padding-bottom: 100px;
+        padding-bottom: 7.14286rem
+    }
+}
+
+.generic-mod--taller .module__inner {
+    padding-top: 50px;
+    padding-top: 3.57143rem;
+    padding-bottom: 75px;
+    padding-bottom: 5.35714rem
+}
+
+@media only screen and (min-width: 768px) {
+    .generic-mod--taller .module__inner {
+        padding-top:75px;
+        padding-top: 5.35714rem;
+        padding-bottom: 125px;
+        padding-bottom: 8.92857rem
+    }
+}
+
+.modules .module:first-child .module__inner {
+    padding-top: 60px
+}
+
+@media only screen and (min-width: 1050px) {
+    .modules .module:first-child .module__inner {
+        padding-top:200px
+    }
+}
+
+.modules .module-carousel:first-child .module__inner {
+    padding-top: 0
+}
+
+@media only screen and (min-width: 1050px) {
+    .modules .module-carousel:first-child .module__inner {
+        padding-top:104px
+    }
+}
+
+@media only screen and (min-width: 1050px) {
+    .modules .generic-mod--lg:first-child .module__inner {
+        padding-top:300px
+    }
+}
+
+.dealer-locator-modules .module:not(.dealer-locator-modal) {
+    height: 0
+}
+
+.dealer-locator-modules .module:not(.dealer-locator-modal).visible-with-results {
+    height: auto
 }

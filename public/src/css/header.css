@@ -4,8 +4,52 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     border: 0;
     font-size: 100%;
     font: inherit;
-    vertical-align: baseline;
+    vertical-align: baseline
 }
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+    display: block
+}
+
+body {
+    line-height: 1
+}
+
+ol,ul {
+    list-style: none
+}
+
+blockquote,q {
+    quotes: none
+}
+
+blockquote:before,blockquote:after,q:before,q:after {
+    content: '';
+    content: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+html {
+    height: 100%;
+    background-color: #000
+}
+
+body {
+    background-color: #fff;
+    min-width: 320px
+}
+
+body.lt-ie9 {
+    position: relative;
+    min-width: 1050px
+}
+
+
+
 
 body:after { content: ''; background-image: url(//pls.webtype.com/v.gif?ct=97957,97956,97955,97958,97958,97956,97957,97955,97958,97956,97955,97957,97958,97955,97956,97957&r=30674&p=29606&h=1aq6klLKp814NWHyVmPy4Q%3d%3d); }
 
@@ -66,10 +110,10 @@ body:after { content: ''; background-image: url(//pls.webtype.com/v.gif?ct=97957
     font-style: normal
 }
 
-.container{
+/* .container{
     height: auto;
     overflow: visible;
-}
+} */
 
 html,body {
     font: 14px/1.78571 "Apres RE",Arial,Times,"Times New Roman",serif;
@@ -80,7 +124,8 @@ html,body {
 
 body {
     background-color: #fff;
-    min-width: 320px
+    min-width: 320px;
+    line-height: 1;
 }
 
 .header {
