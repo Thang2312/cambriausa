@@ -437,26 +437,14 @@
         $('.main-nav__item.js-main-nav-item').hover(
             function () {
                 flyout = $(this).data("flyout");
-                $(`[data-flyout='${flyout}']`).hover(
-                    function () {
-                        $(`.flyout__inner.js-flyout[data-flyout='${flyout}']`).last().addClass("is-active")
-                    },
-
-                    function () {
-                        $(`.flyout__inner.js-flyout[data-flyout='${flyout}']`).last().removeClass("is-active")
-                    }
-                )
-
-                // console.log($("[data-flyout=Why Cambria]"))
-
+                $('.flyout__inner.js-flyout ').each((index, elem) => {
+                    elem.classList.remove('is-active');
+                });
+                $(`.flyout__inner.js-flyout[data-flyout='${flyout}']`).addClass('is-active');
+                $(`.flyout__inner.js-flyout[data-flyout='${flyout}'] .flyout__links`).css('display', 'block');
             }
         )
 
-        // $('flyout__inner js-flyout').hover(
-        //     function () {
-        //         console.log($(this).data("flyout"))
-        //     }
-        // )
     });
 </script>
 
