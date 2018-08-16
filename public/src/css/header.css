@@ -4,7 +4,17 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     border: 0;
     font-size: 100%;
     font: inherit;
-    vertical-align: baseline
+    font-style: inherit;
+    font-variant-ligatures: inherit;
+    font-variant-caps: inherit;
+    font-variant-numeric: inherit;
+    font-variant-east-asian: inherit;
+    font-weight: inherit;
+    font-stretch: inherit;
+    font-size: 100%;
+    line-height: inherit;
+    font-family: inherit;
+    vertical-align: baseline;
 }
 
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
@@ -241,7 +251,8 @@ img[width],img[height] {
 
 .loc-dropdown__cta__lower {
     margin-top: 0.3rem;
-    text-transform: uppercase
+    text-transform: uppercase;
+    line-height:15.4px;
 }
 
 .loc-dropdown__handle {

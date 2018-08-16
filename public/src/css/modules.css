@@ -1123,3 +1123,135 @@ img {
 i {
     font-style: normal
 }
+
+body .scrolldiv .check-set label span.title {
+    display: block;
+    font-family: "BodoniBook", serif;
+    color: #818181;
+    font-size: 1.3em;
+    line-height: 1.2em;
+    /* vertical-align: top; */
+    padding-top: 10px;
+    width: 130px
+}
+
+.owl-carousel .owl-wrapper:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0
+}
+
+.lg-text .h4 {
+    line-height: 1.2
+}
+
+.h1,.wysiwyg h1 {
+    line-height: 1.2;
+    font-size: 80px;
+    font-size: 5.71429rem
+}
+
+.h2,.wysiwyg h2 {
+    line-height: 1.2;
+    font-size: 60px;
+    font-size: 4.28571rem
+}
+
+.h3,.wysiwyg h3 {
+    line-height: 1.4;
+    font-size: 40px;
+    font-size: 2.85714rem
+}
+
+@media only screen and (max-width: 767px) {
+    .h3,.wysiwyg h3 {
+        font-size:26px;
+        font-size: 1.85714rem
+    }
+}
+
+.h4,.wysiwyg h4 {
+    line-height: 1.6;
+    font-size: 26px;
+    font-size: 1.85714rem
+}
+
+.overlay__header {
+    line-height: 1.2;
+    margin-bottom: .2em;
+    position: relative
+}
+
+.overlay__body-text {
+    font-family: "BodoniItalic","Bodoni MT","Times New Roman","Garamond",serif;
+    font-size: 1.4em;
+    line-height: 1.5
+}
+
+@media only screen and (max-width: 1049px) {
+    .utility-nav__item,.utility-nav__item--priority {
+        border-bottom:3px double #ededed;
+        font-family: "BodoniBook","Bodoni MT","Times New Roman","Garamond",serif;
+        text-transform: uppercase;
+        line-height: 2.6;
+        font-size: 14px;
+        font-size: 1rem
+    }
+
+    .utility-nav__item:after,.utility-nav__item--priority:after {
+        content: ">";
+        color: #c59617;
+        float: right;
+        margin-right: 1em
+    }
+
+    .utility-nav__item:hover,.utility-nav__item--priority:hover,.utility-nav__item:is-active--always,.utility-nav__item--priority:is-active--always,.utility-nav__item.is-active,.is-active.utility-nav__item--priority {
+        border-bottom-color: #ededed
+    }
+}
+
+.utility-nav .dropdown li a {
+    background: #f3f3f3;
+    border-bottom: 1px solid #e3e3e3;
+    color: black;
+    font-family: "BodoniBook", "Bodoni MT", "Times New Roman", "Garamond", serif;
+    text-transform: uppercase;
+    line-height: 2.6;
+    font-size: 14px;
+    display: block;
+    font-style: normal;
+    text-transform: capitalize
+}
+
+.filter-header,.filter-footer {
+    padding: 0 25px;
+    line-height: 50px
+}
+
+@media only screen and (max-width: 767px) {
+    .filter-header,.filter-footer {
+        line-height:56px
+    }
+}
+
+.wysiwyg {
+    line-height: 25px
+}
+
+.overlay--left {
+    text-align: left
+}
+
+@media only screen and (min-width: 768px) {
+    .overlay--left {
+        padding:50px;
+        padding: 3.57143rem;
+        margin-left: 0
+    }
+}
+.wysiwyg.overlay__body-text.font-body.font-bodoni--fix.landmark{
+    line-height: 21px;
+}
