@@ -1,0 +1,295 @@
+/*  Partner Landing */
+/* line 3, ../sass/paint-matcher.scss */
+.partner-landing {
+  padding-bottom: 30px;
+}
+
+/* line 7, ../sass/paint-matcher.scss */
+.partner-splash {
+  background: url(../../_cassette/file/public/images/paintmatch/partner/partner-shadow_0d1763d36a50cdf34fcbd4c91119e47272939b81.html) 0 0 repeat-x;
+  padding-top: 60px;
+}
+/* line 11, ../sass/paint-matcher.scss */
+.partner-splash .columns {
+  overflow: hidden;
+  margin-top: 40px;
+  padding-bottom: 120px;
+}
+/* line 17, ../sass/paint-matcher.scss */
+.partner-splash .logotype {
+  margin: 0 auto;
+  width: 211px;
+  height: 72px;
+}
+/* line 23, ../sass/paint-matcher.scss */
+.partner-splash .side-spotlight {
+  width: 400px;
+  margin-right: 20px;
+  padding-left: 40px;
+}
+/* line 29, ../sass/paint-matcher.scss */
+.partner-splash .side-content {
+  width: 500px;
+  padding-top: 15px;
+}
+/* line 33, ../sass/paint-matcher.scss */
+.partner-splash .side-content p {
+  font-size: 17px;
+  margin-bottom: 25px;
+}
+/* line 39, ../sass/paint-matcher.scss */
+.partner-splash .launch-tool {
+  background: url(../../_cassette/file/public/images/paintmatch/partner/partner-bg-bullet_764ee5ac7af7e5a11a504ded59c69c35f74e8a38.html) right center no-repeat;
+  width: 230px;
+  padding-right: 20px;
+  display: block;
+  font-size: 21px;
+  text-decoration: none;
+}
+
+/* Paint Matcher Tool */
+/* line 53, ../sass/paint-matcher.scss */
+.paint-match-header p {
+  width: 93%;
+}
+
+/* line 67, ../sass/paint-matcher.scss */
+.paint-matcher {
+  /* padding-left: 35px; */
+  padding-bottom: 100px;
+  /* Display Pane row [Large Tile, Paint Color] */
+  /* Title row [Cambria Tile name, Benjamin Moore Color] */
+}
+/* line 71, ../sass/paint-matcher.scss */
+.paint-matcher .display {
+  overflow: hidden;
+}
+/* line 76, ../sass/paint-matcher.scss */
+.paint-matcher .pane {
+  width: 480px;
+  height: 409px;
+  overflow: hidden;
+  float: left;
+}
+/* line 83, ../sass/paint-matcher.scss */
+.paint-matcher .tile {
+  background-color: #333;
+}
+/* line 87, ../sass/paint-matcher.scss */
+.paint-matcher .current-cambria-tile {
+  display: block;
+  width: 480px;
+  height: 409px;
+}
+/* line 94, ../sass/paint-matcher.scss */
+.paint-matcher .paint a,
+.paint-matcher .tile a {
+  display: block;
+  width: 480px;
+  height: 409px;
+}
+/* line 102, ../sass/paint-matcher.scss */
+.paint-matcher .titles .icon, .paint-matcher .titles .selected-name, .paint-matcher .titles .outbound-link {
+  float: left;
+  letter-spacing: 0;
+}
+/* line 106, ../sass/paint-matcher.scss */
+.paint-matcher .titles .icon {
+  display: block;
+  background: url('../images/paintmatch/logos-bg.png') 0 0 no-repeat;
+  width: 60px;
+  height: 45px;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+/* line 115, ../sass/paint-matcher.scss */
+.paint-matcher .titles .cambria {
+  background-position: 12px 13px;
+}
+/* line 116, ../sass/paint-matcher.scss */
+.paint-matcher .titles .benj {
+  background-position: 12px -413px;
+}
+/* line 118, ../sass/paint-matcher.scss */
+.paint-matcher .titles .outbound-link {
+  float: right;
+  font-family: "Arial", sans-serif;
+  font-size: 12px;
+  margin-right: 15px;
+  padding-top: 14px;
+  display: block;
+}
+/* line 127, ../sass/paint-matcher.scss */
+.paint-matcher .titles strong {
+  font-weight: normal;
+}
+/* line 131, ../sass/paint-matcher.scss */
+.paint-matcher .titles .selected-name {
+  color: #fff;
+  font-size: 16px;
+  font-weight: normal;
+  padding-top: 10px;
+}
+/* line 137, ../sass/paint-matcher.scss */
+.paint-matcher .titles .selected-name sup {
+  position: relative;
+  top: 0;
+  font-size: 14px;
+}
+/* line 143, ../sass/paint-matcher.scss */
+.paint-matcher .titles .selected-name .color {
+  font-weight: normal;
+}
+/* line 145, ../sass/paint-matcher.scss */
+.paint-matcher .titles .selected-name .grouping {
+  font-weight: normal;
+  font-style: oblique;
+  color: #999;
+}
+/* line 153, ../sass/paint-matcher.scss */
+.paint-matcher .title {
+  width: 480px;
+  height: 45px;
+  overflow: hidden;
+  background: url('../images/paintmatch/title-bg.png') 0 0 repeat-x;
+  float: left;
+  border-bottom: 1px solid #000;
+}
+/* line 162, ../sass/paint-matcher.scss */
+.paint-matcher .first {
+  width: 480px;
+  border-right: 1px solid #000;
+}
+/* line 167, ../sass/paint-matcher.scss */
+.paint-matcher .second {
+  width: 479px;
+}
+
+/* Palettes row [Cambria Tile palette, Benjamin Moore palette] */
+/* line 175, ../sass/paint-matcher.scss */
+.paint-matcher .palettes {
+  width: 960px;
+  height: 280px;
+  border-bottom: 2px solid #bbbbbb;
+}
+
+/* line 182, ../sass/paint-matcher.scss */
+.paint-matcher .palettes .palette {
+  width: 480px;
+  float: left;
+  height: 280px;
+  background-color: #333333;
+}
+/* line 189, ../sass/paint-matcher.scss */
+.paint-matcher .palettes .color-row {
+  overflow: hidden;
+  height: 140px;
+}
+/* line 194, ../sass/paint-matcher.scss */
+.paint-matcher .palettes .color {
+  width: 240px;
+  float: left;
+  background: transparent url('../images/paintmatch/states.png') 0 0 no-repeat;
+  position: relative;
+  height: 140px;
+}
+/* line 201, ../sass/paint-matcher.scss */
+.paint-matcher .palettes .odd .color {
+  background-position: 0 -138px;
+}
+/* line 205, ../sass/paint-matcher.scss */
+.paint-matcher .palettes .first-color {
+  width: 240px;
+}
+/* line 210, ../sass/paint-matcher.scss */
+.paint-matcher .palettes .selected-color,
+.paint-matcher .palettes .odd .selected-color {
+  background-position: 0 -280px;
+}
+/* line 214, ../sass/paint-matcher.scss */
+.paint-matcher .palettes .color .swatch {
+  border: 1px solid #fff;
+  height: 75px;
+  width: 185px;
+  display: block;
+}
+/* line 221, ../sass/paint-matcher.scss */
+.paint-matcher .palettes .color .swatch-icon {
+  position: absolute;
+  background: url(../images/paintmatch/logos-bg.png) 0 0 no-repeat;
+  width: 14px;
+  height: 11px;
+  top: 80px;
+  left: 36px;
+}
+/* line 230, ../sass/paint-matcher.scss */
+.paint-matcher .palettes .color .swatch-name {
+  color: #333333;
+  display: block;
+  font-size: 15px;
+  padding-top: 4px;
+  letter-spacing: 0;
+  font-family: "BodoniBook", serif;
+  text-transform: none;
+}
+/* line 238, ../sass/paint-matcher.scss */
+.paint-matcher .palettes .color .swatch-color-group,
+.paint-matcher .palettes .color .swatch-key {
+  display: none;
+}
+/* line 242, ../sass/paint-matcher.scss */
+.paint-matcher .palettes .color .swatch-id {
+  color: #666;
+  font-size: 11px;
+  position: absolute;
+  bottom: 17px;
+  right: 30px;
+}
+
+/* line 252, ../sass/paint-matcher.scss */
+.paint-matcher .palette .activate-color {
+  display: block;
+  width: 190px;
+  padding: 25px;
+  height: 90px;
+  text-decoration: none;
+}
+
+/* paint matcher overrides */
+/* line 264, ../sass/paint-matcher.scss */
+.paint-matcher .scrolldiv {
+  width: 100%;
+  height: 280px;
+  padding-left: 30px;
+  padding-top: 10px;
+  overflow-x: hidden;
+}
+
+/* line 273, ../sass/paint-matcher.scss */
+.paint-matcher .scrolldiv .check-set label {
+  width: 200%;
+}
+/* line 277, ../sass/paint-matcher.scss */
+.paint-matcher .scrolldiv .check-set .radio {
+  float: left;
+  padding-top: 10px;
+}
+/* line 282, ../sass/paint-matcher.scss */
+.paint-matcher .scrolldiv .check-set span {
+  padding-top: 3px;
+}
+/* line 286, ../sass/paint-matcher.scss */
+.paint-matcher .scrolldiv .check-set sup {
+  font-size: 7px;
+}
+
+/* line 292, ../sass/paint-matcher.scss */
+.paint-matcher .jspDrag {
+  background-position: 0 47%;
+}
+.paint-matcher .tile-palette__label {
+  padding-left: 10px;
+  margin-bottom: 3px;
+  display: block;
+  cursor: pointer;
+}
