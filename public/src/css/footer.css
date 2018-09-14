@@ -334,3 +334,12 @@ audio,canvas,img,svg,video {
     -o-transform: scale(1);
     transform: scale(1)
 }
+
+.back-to-top.is-shown {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+}
