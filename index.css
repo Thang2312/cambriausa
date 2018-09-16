@@ -12,9 +12,9 @@
   transform: scale(1.02);
 }
 
-.oprah-divider {
+/* .oprah-divider {
   margin: 0;
-}
+} */
 
 .oprah-badge img {
   width: 100%;
@@ -67,6 +67,10 @@
   .footer-mobile__social {
     padding: 20.5px 25px !important;
   }
+
+  .icon-vn {
+    display: none;
+  }
 }
 
 .oprah-divider {
@@ -80,7 +84,114 @@
   padding: 20.5px 0;
 }
 
-/* 
-.unwanted {
-  display: none
-} */
+#oprah-title {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.grid-wrapper-syl {
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+
+.oprah-promo-img {
+  padding-top: 15px;
+  width: 100%;
+}
+
+.oprah-promo {
+  font-size: 1.4em; 
+  padding-top: 5px; 
+  color: #c59617; 
+  text-align: center; 
+  margin-bottom: 0px;
+}
+
+.title-syl {
+  font-size: 1.4em;
+  padding-top: 5px; 
+  color: #c59617; 
+  text-align: center; 
+  margin-bottom: 0px;
+}
+
+.oprah-promo-content {
+  font-size: 1em;
+  padding-bottom: 30px;
+  padding-top: 0px;
+  text-align: center;
+}
+
+.txt--center {
+  text-align: center;
+}
+
+.grid-wrapper-img {
+  padding-top: 15px; 
+  text-align: left;
+}
+
+.wysiwyg h2 {
+  text-align: center; 
+  padding-top: 45px; 
+  padding-bottom: 20px;
+}
+
+.wysiwyg--space {
+  text-align: center; 
+  display: block; 
+  margin: 0 auto; 
+  padding-bottom: 0px; 
+  width: 100px; 
+  border-top: 3px solid #c59617;
+}
+
+.module__desktop-bg {
+  background-image: url(./images/home/brittanicca_matte.jpg);
+}
+
+.wysiwyg__title {
+  text-align: center; 
+  font-size: 5em !important; 
+  padding-bottom: 5px !important; 
+  max-width: 80%; 
+  margin: 15px auto;
+}
+
+.mg-b {
+  margin-bottom: 50px !important; 
+}
+
+.wysiwyg__p1 {
+  text-align: center; 
+  display: block; 
+  margin: 0 auto; 
+  padding-bottom: 0px; 
+  width: 100px; 
+  border-top: 3px solid #c59617;
+}
+
+.wysiwyg__p2 {
+  font-size: 1em; 
+  padding-top: 5px; 
+  margin-top: 20px; 
+  text-align: center;
+}
+
+.grid__title {
+  font-size: 1.2em; 
+  color: #c59617; 
+  text-align: center; 
+  margin-bottom: 0px; 
+  padding-bottom: 20px;
+}
+
+.wysiwyg__p3 {
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+  text-align: center;
+}
+
+.pd-b {
+  padding-bottom: 25px;
+}
