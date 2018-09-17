@@ -1,0 +1,36 @@
+.module__inner.module__desktop-bg.bg-focus-center.module__desktop-bg-no-mobile {
+    background-image: url("../../../images/AboutUs/PressRoom/skara-brae_1550x700_v3.jpg")
+}
+
+.divider-diamond.wow.animated {
+    visibility: visible;
+}
+
+.landmark.wysiwyg h5 {
+    text-align: center;
+}
+
+.landmark.wysiwyg ul {
+    text-align: left;
+}
+
+.landmark.wysiwyg li {
+    text-align: left;
+}
+
+.module__inner.module__desktop-bg.bg-focus-center.module__desktop-bg-no-mobile {
+    background-image: url("../../../images/AboutUs/PressRoom/neweventsmodulebackground.jpg")
+}
+
+.landmark.wysiwyg h5 {
+    text-align: center;
+}
+
+.landmark.wysiwyg p {
+    text-align: center;
+}
+
+.landmark.wysiwyg img{
+    height: 26px;
+    width: 26px;
+}

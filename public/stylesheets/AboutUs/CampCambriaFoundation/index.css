@@ -1,0 +1,40 @@
+.wysiwyg.wrapper--main.firstShow p {
+    text-align: center;
+}
+
+.wysiwyg.wrapper--main.firstShow h4 {
+    text-align: center;
+}
+
+.wysiwyg.wrapper--main.firstShow img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid.hand-one-quarter.lap-one-quarter {
+    text-align: center;
+}
+
+.divider-diamond.wow.animated {
+    visibility: visible;
+}
+
+.landmark.wysiwyg .p1 {
+    text-align: center;
+    padding-top: 8px;
+}
+
+.landmark.wysiwyg .p2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.landmark.wysiwyg li {
+    text-align: left;
+}
+
+.video-mod-cover.js-video-cover {
+    background-image: url("../../../images/AboutUs/CampCambriaFoundation/1040x580_cambria_classic_video_still.jpg")
+}

@@ -1,0 +1,33 @@
+.module__inner.module__mobile-bg {
+    background-image: url("../../../images/AboutUs/Leadership/familyownedamericanmade-plant.jpg");
+}
+
+.module__inner.module__desktop-bg.bg-focus-right.module__desktop-bg--has-mobile-bg {
+    background-image: url("../../../images/AboutUs/Leadership/familyownedamericanmade-plant.jpg");
+}
+
+.module__inner.module__desktop-bg.bg-focus-right {
+    background-image: url("../../../images/AboutUs/Leadership/ourbeliefs.jpg");
+}
+
+.module__inner.module__desktop-bg.bg-focus-center.module__desktop-bg-no-mobile {
+    background-image: url("../../../images/AboutUs/Leadership/flag_2_rev_10_02_2015.jpg");
+}
+
+.grid.lap-one-quarter.landmark {
+    text-align: center
+}
+
+.grid.lap-one-quarter.landmark img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.landmark.wysiwyg h1 {
+    text-align: center;
+}
+
+.video-mod-cover.js-video-cover {
+    background-image: url("../../../images/AboutUs/Leadership/john_rich_cover55.jpg");
+}

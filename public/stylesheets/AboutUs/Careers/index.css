@@ -1,0 +1,19 @@
+.grid.lap-three-fifths p {
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.grid.lap-two-fifths h3 {
+    text-align: right;
+}
+
+.grid.lap-two-fifths p {
+    text-align: right;
+}
+
+.grid.lap-two-fifths span {
+    display: inline-block;
+    height: 220px;
+    width: 390px;
+}
