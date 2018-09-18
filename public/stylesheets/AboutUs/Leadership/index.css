@@ -31,3 +31,20 @@
 .video-mod-cover.js-video-cover {
     background-image: url("../../../images/AboutUs/Leadership/john_rich_cover55.jpg");
 }
+
+.footer-mobile__social.h-list {
+    padding: 0px;
+    padding-top: 50px;
+    position: relative;
+    left: -4px;
+}
+
+.h-list>li {
+    float: left;
+    margin-right: 4px;
+}
+
+.h-list.h-list--piped li {
+    margin-right: 0;
+    line-height: 1;
+}
